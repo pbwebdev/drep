@@ -1,6 +1,5 @@
 {
   "@context": {
-    "@language": "en-us",
     "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
     "CIPQQQ": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-QQQ/README.md#",
     "hashAlgorithm": "CIP100:hashAlgorithm",
@@ -46,55 +45,16 @@
     }
   },
   "authors": [],
-  "hashAlgorithm": {
-    "@value": "blake2b-256"
-  },
+  "hashAlgorithm": "blake2b-256",
   "body": {
-    "bio": {
-      "@value": "Cardano content creator, educator, YouTuber and Stake Pool Operator of ADAOZ. Here to help shape the future of Cardano through governance."
-    },
-    "dRepName": {
-      "@value": "PeterBui"
-    },
-    "email": {
-      "@value": "buipy001@gmail.com"
-    },
+    "bio": "Cardano content creator",
+    "dRepName": "PeterBui",
+    "email": "mail@learncardano.io",
     "references": [
       {
         "@type": "Other",
-        "label": {
-          "@value": "Label"
-        },
-        "uri": {
-          "@value": "https://linktr.ee/peterbui"
-        }
-      },
-      {
-        "@type": "Other",
-        "label": {
-          "@value": "Label"
-        },
-        "uri": {
-          "@value": "https://learncardano.io/"
-        }
-      },
-      {
-        "@type": "Other",
-        "label": {
-          "@value": "Label"
-        },
-        "uri": {
-          "@value": "https://cardanode.com.au/"
-        }
-      },
-      {
-        "@type": "Other",
-        "label": {
-          "@value": "Label"
-        },
-        "uri": {
-          "@value": "https://youtube.com/learncardano"
-        }
+        "label": "Label",
+        "uri": "https://linktr.ee/peterbui"
       }
     ]
   }
