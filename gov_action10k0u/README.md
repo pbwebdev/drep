@@ -1,0 +1,3 @@
+I voted NO because a 200 million ADA limit is too low to support Cardano’s needs for the remainder of 2025. There are already well-developed budgets and initiatives prepared for on-chain funding, many of which span 12-month periods and require more than what this cap allows.
+
+While caution is important in early governance, setting the NCL too conservatively risks stalling ecosystem growth and underfunding critical infrastructure. We need a realistic limit that reflects the scale of current proposals and gives the community room to build with confidence.
