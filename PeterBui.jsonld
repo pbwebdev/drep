@@ -1,31 +1,45 @@
 {
   "@context": {
+    "@language": "en-us",
     "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
-    "CIPQQQ": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-QQQ/README.md#",
+    "CIP119": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0119/README.md#",
     "hashAlgorithm": "CIP100:hashAlgorithm",
     "body": {
-      "@id": "CIPQQQ:body",
+      "@id": "CIP119:body",
       "@context": {
         "references": {
-          "@id": "CIPQQQ:references",
+          "@id": "CIP119:references",
           "@container": "@set",
           "@context": {
             "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Identity": "CIP119:IdentityReference",
+            "Link": "CIP119:LinkReference",
             "Other": "CIP100:OtherReference",
             "label": "CIP100:reference-label",
             "uri": "CIP100:reference-uri",
             "referenceHash": {
-              "@id": "CIPQQQ:referenceHash",
+              "@id": "CIP119:referenceHash",
               "@context": {
-                "hashDigest": "CIPQQQ:hashDigest",
+                "hashDigest": "CIP119:hashDigest",
                 "hashAlgorithm": "CIP100:hashAlgorithm"
               }
             }
           }
         },
-        "dRepName": "CIPQQQ:dRepName",
-        "bio": "CIPQQQ:bio",
-        "email": "CIPQQQ:email"
+        "paymentAddress": "CIP119:paymentAddress",
+        "givenName": "CIP119:givenName",
+        "image": {
+          "@id": "CIP119:image",
+          "@context": {
+            "ImageObject": "https://schema.org/ImageObject",
+            "contentUrl": "CIP119:contentUrl",
+            "sha256": "CIP119:sha256"
+          }
+        },
+        "objectives": "CIP119:objectives",
+        "motivations": "CIP119:motivations",
+        "qualifications": "CIP119:qualifications",
+        "doNotList": "CIP119:doNotList"
       }
     },
     "authors": {
@@ -47,14 +61,46 @@
   "authors": [],
   "hashAlgorithm": "blake2b-256",
   "body": {
-    "bio": "Cardano content creator",
-    "dRepName": "PeterBui",
-    "email": "mail@learncardano.io",
+    "givenName": "Peter Bui",
+    "image": {
+      "@type": "ImageObject",
+      "contentUrl": "https://raw.githubusercontent.com/pbwebdev/drep/refs/heads/main/profile-400x400.jpg",
+      "sha256": "dec6cd741ef04c9363861384e7b57c5d78bf3e9c5b045798ec65affd9aa6b6ce"
+    },
+    "motivations": "I'm motivated by a desire to see Cardano succeed as a truly decentralised and community-driven blockchain. As a long-time participant in the ecosystem, I want to ensure governance is transparent, inclusive, and effective. I believe informed decision-making and responsible treasury management are essential for Cardano’s growth. By serving as a DRep, I hope to bridge the gap between complex proposals and everyday ADA holders, empowering more people to get involved and have confidence in the governance process. My goal is to help shape a sustainable future for Cardano through active, thoughtful, and accountable representation.",
+    "objectives": "As a DRep, my objective is to represent ADA holders by voting on governance actions that strengthen Cardano’s decentralisation, security, and long-term growth. I aim to make informed, transparent decisions that reflect community interests, support responsible treasury use, and encourage meaningful participation. My goal is to simplify complex proposals, promote accountability, and help guide Cardano’s evolution through fair and open governance.",
+    "paymentAddress": "addr1qxmw4rpuv3xhrhsqysuu4u3evpvxwsqnye38psx5m2073smnylpeup29g0uw6njn2vz66hm9wczswsk93f2ag9h7uhfs9lg6nl",
+    "qualifications": "I'm an educator and developer in the Cardano ecosystem. I host the Learn Cardano Podcast, run the ADAOZ stake pool, and created the CardanoPress plugin to help projects integrate with WordPress. With a background in web development, I focus on making Cardano more accessible through clear, community-focused content. As a DRep, I aim to support decentralised governance, vote with transparency, and ensure treasury decisions reflect the long-term interests of the ecosystem.",
     "references": [
       {
-        "@type": "Other",
-        "label": "Label",
-        "uri": "https://learncardano.io"
+        "@type": "Link",
+        "label": "Website",
+        "uri": "https://drep.learncardano.io"
+      },
+      {
+        "@type": "Link",
+        "label": "Personal profile",
+        "uri": "https://x.com/astroboysoup"
+      },
+      {
+        "@type": "Link",
+        "label": "Channel profile",
+        "uri": "https://x.com/learncardano"
+      },
+      {
+        "@type": "Link",
+        "label": "YouTube",
+        "uri": "https://www.youtube.com/learncardano"
+      },
+      {
+        "@type": "Link",
+        "label": "All other links via LinkTree",
+        "uri": "https://linktr.ee/peterbui"
+      },
+      {
+        "@type": "Identity",
+        "label": "Personal DRep Website",
+        "uri": "https://drep.learncardano.io/"
       }
     ]
   }
