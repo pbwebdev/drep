@@ -1,0 +1,3 @@
+I voted NO because it’s too early to lock in a Net Change Limit for 2026. We don’t yet have a clear picture of what next year’s activity, funding needs, or actual treasury inflows will look like. Committing to a fixed amount now risks limiting our flexibility and may not reflect the real needs of the ecosystem when that time comes.
+
+Cardano’s governance is still evolving, and we should be careful not to over-optimise too early. It’s more responsible to review and adjust the Net Change Limit closer to when it’s needed.
