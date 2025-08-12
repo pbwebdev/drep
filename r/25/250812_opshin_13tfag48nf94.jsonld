@@ -50,7 +50,7 @@
   },
   "authors": [],
   "body": {
-    "comment": "OpShin reduces the barrier to Cardano smart contracts by using Python. The maintainer is known. The tool is live and in use. The request is modest and covered by the approved 2025 budget. Funds keep the toolchain current with Plutus changes and standards. This backs core developer needs and ecosystem growth. Recommendation: YES."
+    "comment": "OpShin reduces the barrier to Cardano smart contracts by using Python. The maintainer is known. The tool is live and in use. The request is modest and covered by the approved 2025 budget. Funds keep the toolchain current with Plutus changes and standards. This backs core developer needs and ecosystem growth."
   },
   "hashAlgorithm": "blake2b-256"
 }
