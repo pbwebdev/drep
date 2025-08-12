@@ -1,0 +1,56 @@
+{
+  "@context": {
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP100:body",
+      "@context": {
+        "references": {
+          "@id": "CIP100:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "referenceHash": {
+              "@id": "CIP100:referenceHash",
+              "@context": {
+                "hashDigest": "CIP100:hashDigest",
+                "hashAlgorithm": "CIP100:hashAlgorithm"
+              }
+            }
+          }
+        },
+        "comment": "CIP100:comment",
+        "externalUpdates": {
+          "@id": "CIP100:externalUpdates",
+          "@context": {
+            "title": "CIP100:update-title",
+            "uri": "CIP100:uri"
+          }
+        }
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "authors": [],
+  "body": {
+    "comment": "This proposal supports a core developer infrastructure service with proven operational history since 2022, delivering 100% uptime and already serving key ecosystem projects like Eternl, NMKR, and Pool.pm. By funding NFTCDN to be free for all builders for 18 months, it removes significant cost and technical barriers to native asset adoption. The projected ROI of ~17x and estimated savings of 39,000 developer hours align with the Cardano Constitution’s goals of efficient treasury use and ecosystem growth. The spend represents a small fraction of the annual treasury budget and is tied to a milestone-based legal contract administered by Intersect with third-party oversight, ensuring accountability and delivery assurance. No constitutional tenets are breached, and the proposal clearly aligns with CIP-1694 requirements for transparency, oversight, and community benefit."
+  },
+  "hashAlgorithm": "blake2b-256"
+}
