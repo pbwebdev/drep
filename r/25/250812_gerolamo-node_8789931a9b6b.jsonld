@@ -1,0 +1,47 @@
+{
+  "@context": {
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP100:body",
+      "@context": {
+        "references": {
+          "@id": "CIP100:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "referenceHash": {
+              "@id": "CIP100:referenceHash",
+              "@context": {
+                "hashDigest": "CIP100:hashDigest",
+                "hashAlgorithm": "CIP100:hashAlgorithm"
+              }
+            }
+          }
+        },
+        "comment": "CIP100:comment",
+        "externalUpdates": {
+          "@id": "CIP100:externalUpdates",
+          "@container": "@set"
+        }
+      }
+    }
+  },
+  "hashAlgorithm": "blake2b-256",
+  "body": {
+    "references": [
+      {
+        "label": "GovernanceMetadata",
+        "uri": "https://adastat.net/governances/gov_action1u9x73kwufaxa70lfy59g4ynwyrcsaxdcd0gxzzmh67s9fxq4j8hqqk2phgh",
+        "referenceHash": {
+          "hashAlgorithm": "blake2b-256",
+          "hashDigest": "8789931a9b6b"
+        }
+      }
+    ],
+    "comment": "Yes - This proposal is part of the approved Cardano Budget 2025, ensuring automatic support under my voting rules. A TypeScript-based light node running in the browser will improve accessibility, decentralisation, and developer onboarding. The project is managed under Intersect’s treasury and contract oversight framework, meeting constitutional requirements for transparency and delivery assurance."
+  }
+}
